@@ -326,7 +326,28 @@ bitcoin-high-frequency-volatility-forecasting/
 |   |-- DATA SCIENCE HOMEWORK.pdf
 ```
 
-The original high-frequency dataset is not directly stored in the repository because it exceeds GitHub's standard file-size limit. Dataset access and reproducibility instructions will be documented separately.
+The original high-frequency dataset is not directly stored in the repository because it exceeds GitHub's standard file-size limit. 
+
+### Project Resources
+
+| Resource | Description |
+|---|---|
+| [Python Notebook](notebooks/DATA_SCIENEC_HOMEWORK1.ipynb) | Data preparation, volatility modelling, regression and visualisation |
+| [Research Report](reports/DATA%20SCIENCE%20HOMEWORK.pdf) | Full methodology, figures and findings |
+| [Results & Insights](RESULTS.md) | Forecasting scorecard and financial implications |
+| [Bitcoin Dataset](https://github.com/kiarashree/bitcoin-high-frequency-volatility-forecasting/releases/tag/v1.0.0) | Original transaction data provided as a ZIP release |
+
+### Reproducing the Analysis
+
+1. Open the Jupyter Notebook using Google Colab or a local Jupyter environment.
+2. Install the packages listed in `requirements.txt`.
+3. Run the notebook's dataset-loading cell to download and extract the December 2018 Bitcoin dataset.
+4. Execute the remaining notebook cells in sequence.
+5. Compare the generated outputs against the research report and `RESULTS.md`.
+
+The full dataset is distributed through GitHub Releases because its uncompressed size exceeds GitHub's standard individual file-size limit.
+
+The complete notebook has not yet been independently executed and validated in a fresh environment.
 
 ---
 
